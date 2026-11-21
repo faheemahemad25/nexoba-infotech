@@ -15,7 +15,7 @@ export default function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       {/* <ScrollToTop /> */}
-      <BrowserRouter basename="/nexoba-infotech/">
+      <BrowserRouter basename="/">
         <Navbar />
         <main id="main-content" style={{ flex: 1 }}>
           <Routes>
